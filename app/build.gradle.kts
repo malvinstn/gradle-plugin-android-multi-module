@@ -16,5 +16,7 @@ android {
 addsRxDependencies()
 
 dependencies {
+    implementation(project(":lib1"))
+    implementation(project(":lib2"))
     implementation("androidx.appcompat:appcompat:1.1.0")
 }
